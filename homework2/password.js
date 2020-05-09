@@ -16,7 +16,7 @@ fs.readFile('password.txt',(err,data)=>{
 });
 */
 
-
+// 동기 방식으로
 
 let readFunc=()=>new Promise(
     async (resolve, reject) => {

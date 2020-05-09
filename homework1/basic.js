@@ -1,8 +1,9 @@
-var vv = 123;
-vv = 321;
+var vv = 1234;
+var vv=321;
 console.log("vv : ", vv);
 
-let ll;
+let ll=123;
+let ll=321
 console.log("ll : ", ll);
 
 //const cc; 오류

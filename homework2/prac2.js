@@ -15,6 +15,3 @@ function task3(){
 task1()
 task2()
 task3()
-
-// 출력 순서
-// 0초 인데 왜 2,3,1 순서인가
