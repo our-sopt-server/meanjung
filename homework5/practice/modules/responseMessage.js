@@ -18,7 +18,11 @@ module.exports = {
 
     DB_ERROR: "데이터베이스 에러",
 
+    NO_CONTENT: "해당 제목의 글이 존재하지 않습니다.",
+    TITLE_OVERLAP:"해당 제목의 글이 이미 존재합니다.",
+    WRITE_POST_SUCCESS: "POST 작성 성공",
     READ_POST_SUCCESS: "POST 조회 성공",
+    NO_POST:"해당 작가의 글이 없습니다.",
     UPDATE_SUCCESS:"UPDATE 성공",
     UPDATE_FAIL:"UPDATE 실패",
     DELETE_FAIL:"DELETE 실패",

@@ -74,7 +74,7 @@ const controllers={
         if(user.idx==undefined){
             return res.json(util.fail(statusCode.UNAUTHORIZED, resMessage.INVALID_TOKEN));
         }
-        return res.json(util.success(statusCode.OK, resMessage.AUTH_SUCCESS));
+        return res.json(util.success(statusCode.OK, resMessage.AUTH_SUCCESS, user));
     }
 };
 module.exports=controllers;
