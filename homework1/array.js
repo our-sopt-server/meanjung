@@ -1,6 +1,6 @@
-var server1=["김해리","손예지",43,null,true];
-var server2=Array("신윤재","이가희",13);
-var server3=new Array("이현주","조충범",false,undefined);
+var server1=["요소1","요소2",43,null,true];
+var server2=Array("요소1","요소2",13);
+var server3=new Array("요소1","요소2",false,undefined);
 
 console.log('server1:',server1);
 console.log('server2:',server2);

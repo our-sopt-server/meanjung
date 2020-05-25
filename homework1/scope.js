@@ -7,7 +7,6 @@ function funcScope(){
     }
     //console.log('let은 block scope, ll:',ll);
     console.log('var은 function scope, v2:',v2);
-    console.log('var은 function scope, v1',v1)
 }
 funcScope();
 //console.log('var은 function scope, v2:',v2);
