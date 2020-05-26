@@ -33,7 +33,7 @@ const controllers={
             return ;
         }
         res.status(statusCode.OK)
-        .send(util.success(statusCode.OK, resMessage.WRITE_POST_SUCCESS, {accessToken:token}));
+        .send(util.success(statusCode.OK, resMessage.WRITE_POST_SUCCESS, idx));
     },
     readPost:async (req, res)=>{
         const id=req.params.id;
