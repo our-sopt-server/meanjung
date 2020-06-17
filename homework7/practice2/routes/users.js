@@ -12,7 +12,7 @@ const upload=multer({
 
 router.post('/signup',UserController.signup);
 router.post('/signin',UserController.signin);
-router.post('/profile', AuthMiddleware.checkToken, upload.single('profile'), UserController.updateProfile);
+router.post('/profile', AuthMiddleware.checkToken, upload.array('profile',3), UserController.updateProfile);
 
 
 module.exports = router;
